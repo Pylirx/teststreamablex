@@ -1,4 +1,8 @@
 _G.Key = "8ur954jgjfdukewi39irtyweogjgk42#14"
+local userkey = "https://pastebin.com/raw/fYyiza9s"
+local blacklist = "https://pastebin.com/raw/fYyiza9s"
+local key = game:HttpGet(userkey, true)
+local banned = game:HttpGet(blacklist, true)
 plr = game.Players.LocalPlayer
 --f
 if string.find(key, plr.Name) then 
